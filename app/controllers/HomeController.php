@@ -20,4 +20,9 @@ class HomeController extends BaseController {
 		return 'first change for develop branch';
 	}
 
+	public function getHomeView()
+	{
+		$this->setupLayout();
+	}
+
 }
